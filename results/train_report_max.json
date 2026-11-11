@@ -1,0 +1,45 @@
+{
+  "test": {
+    "accuracy": 0.8026666666666666,
+    "auc": 0.8735017549980065,
+    "oracle_pwm_auc": 0.8923817779233354,
+    "pct_of_oracle": 0.9788431102108958
+  },
+  "n_params": 6817,
+  "pooling": "max",
+  "top_filters": [
+    {
+      "filter": 1,
+      "consensus": "TCAAGATAAGGA",
+      "ic": 6.3260674476623535,
+      "n_sites": 3358,
+      "match_r": 0.9872014446725069,
+      "strand": "+"
+    },
+    {
+      "filter": 4,
+      "consensus": "TTTCCTTATCTA",
+      "ic": 6.148359298706055,
+      "n_sites": 3790,
+      "match_r": 0.9762649507355848,
+      "strand": "-"
+    },
+    {
+      "filter": 5,
+      "consensus": "TATTCCTTATCT",
+      "ic": 6.658664703369141,
+      "n_sites": 3315,
+      "match_r": 0.9509643842469558,
+      "strand": "-"
+    },
+    {
+      "filter": 11,
+      "consensus": "CTTAGATAAGGT",
+      "ic": 6.397348403930664,
+      "n_sites": 3485,
+      "match_r": 0.9471279237721624,
+      "strand": "+"
+    }
+  ],
+  "planted_motif": "AGATAAGG"
+}

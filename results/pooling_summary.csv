@@ -1,0 +1,9 @@
+condition,pooling,test_acc,test_acc_sd,test_auc,test_auc_sd,outside_auc,params
+position_shift,avg,0.7432,0.0256,0.8199,0.036,0.814,6817
+position_shift,max,0.7968,0.014,0.8688,0.0113,0.865,6817
+position_shift,none,0.5848,0.0104,0.5246,0.0182,0.3914,12833
+position_shift,oracle,,,0.8883,0.0083,,0
+standard,avg,0.7462,0.0144,0.8219,0.0297,0.8182,6817
+standard,max,0.7973,0.0058,0.8718,0.0072,0.8691,6817
+standard,none,0.7763,0.0127,0.8423,0.0139,0.8398,12833
+standard,oracle,,,0.8883,0.0083,,0
